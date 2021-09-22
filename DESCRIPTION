@@ -1,0 +1,20 @@
+Package: WiNN
+Title: Signal correction for metabolomic data
+Version: 0.4
+Authors@R:
+    c(person(given = "Olga", family = "Demeler",role = c("aut"),
+                email = "olga.demler@example.com"),
+      person(given = "Franco",family = "Giulianini", role = c("aut", "cre"),
+                email = "franco.giulianini@example.com"))
+Author: Olga Demler [aut], Franco Giulianini [aut, cre],
+Maintainer: Franco Giulianini <franco.giulianini@example.com>
+Depends: gam, hwwntest
+Description: Signal correction for metabolomic data
+Imports:
+    gam,
+    hwwntest 
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9000
